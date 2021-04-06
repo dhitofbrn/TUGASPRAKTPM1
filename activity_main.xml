@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    android:onClick="Pindah"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/atas"
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/Cute"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/cute" />
+
+        <TextView
+            android:id="@+id/CapCute"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:text="i'm the reason why someone is smiling cause my life is joke"
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Bawah"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/abah"
+            android:layout_width="181dp"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="I have high dream yet long sleep. fair enough
+
+
+            i also have nothing to do. what a wonderfull life"
+
+
+        <ImageView
+            android:id="@+id/capabah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/abah" />
+
+    </LinearLayout>
+</LinearLayout>
